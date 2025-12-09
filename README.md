@@ -48,13 +48,6 @@ If you'd like to contribute:
 3. Commit and push your changes.
 4. Open a Pull Request describing the change.
 
-Or open an issue to propose improvements or report bugs.
-
-## License
-
-Add a license file if desired (e.g., MIT). Example note:
-> License: MIT — see LICENSE (if added)
-
 ## Author / Contact
 
 Project by anasaemd25 — https://github.com/anasaemd25
