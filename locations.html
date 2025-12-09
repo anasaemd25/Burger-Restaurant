@@ -166,7 +166,7 @@
             text-align: center;
         }
 
-.restaurants{
+        .restaurants{
             font-size:2rem;
             font-weight:700;
             text-align:center;
@@ -174,13 +174,10 @@
             color:#111111;
         }
 
-        /* ========================================= */
-        /* NUEVO CONTENEDOR PARA LAS DOS TARJETAS     */
-        /* ========================================= */
         .locations-container {
             display: flex;
-            flex-direction: column;      /* apila verticalmente */
-            align-items: center;         /* centra horizontalmente */
+            flex-direction: column;      
+            align-items: center;        
             gap: 2rem;
             padding: 0 1rem;
             margin-bottom: 4rem;
@@ -188,9 +185,9 @@
 
         .location-card {
             position: relative;
-            width: 420px;              /* ancho fijo bonito en escritorio */
-            max-width: 45%;            /* nunca más del 45% del contenedor */
-            flex: 1;                   /* ocupa el espacio disponible */
+            width: 420px;             
+            max-width: 45%; 
+            flex: 1; 
             overflow: hidden;
             border-radius: 16px;
             box-shadow: 0 8px 20px rgba(0,0,0,0.1);
@@ -222,7 +219,6 @@
             backdrop-filter: blur(2px);
         }
 
-        /* En pantallas pequeñas ocupan todo el ancho */
         @media (max-width: 900px) {
             .locations-container {
                 flex-direction: column;
