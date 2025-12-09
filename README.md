@@ -58,7 +58,3 @@ Add a license file if desired (e.g., MIT). Example note:
 ## Author / Contact
 
 Project by anasaemd25 — https://github.com/anasaemd25
-
-## Notes
-
-This README is a basic template for a static site. I can expand it with accessibility guidelines, testing checklist, or add a LICENSE file. Let me know if you want me to create the README directly in the repository.
