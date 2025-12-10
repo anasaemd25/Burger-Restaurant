@@ -1,0 +1,235 @@
+html{
+    background-color:  #FFFDFD;
+}
+
+.header{
+    position: relative;
+    background-color:#FFB703;
+    border-radius:12px;
+    height:3.5rem;
+    min-width:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-between; 
+    padding: 0 0.5rem;
+    box-sizing:border-box;
+}
+
+.header-left{
+    display:flex;
+    align-items:center;
+    gap:0.5rem; 
+}
+
+
+.back-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:44px;
+    height:44px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+.back-btn img{
+    width:44px;
+    display:block;
+    padding-right:1rem; 
+}
+
+.menu{
+    margin:0;
+    font-weight:700;
+    text-decoration: none;
+    color: #111111 ;
+}
+
+.logo{ 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
+    transform: translate(-50%, -50%); 
+    pointer-events:auto; 
+    z-index: 1;        }
+
+.logo img{
+    display:block;
+    width:3.5rem; 
+    height:auto;
+    padding:0;      
+}
+
+.header-right{
+    display:flex;
+    align-items:center;
+    gap:0.5rem; 
+}
+
+.locations{
+    margin:1rem;
+    font-weight:700;
+    text-decoration: none;
+    color: #111111 ;
+}
+
+.cart-btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:44px;
+    height:44px;
+    border-radius:8px;
+    text-decoration:none;
+}
+
+.cart-btn img{
+    width:34px;
+    display:block;
+    padding-left:1rem; 
+}
+
+.restaurants{
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    margin-top:2rem;
+    color:#111111;
+}
+
+.locations-card{
+    position: relative;    
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.locations-card img {
+    display: block;
+    width: 100%;            
+    height: auto;
+    border-radius: 12px;
+}
+
+.locations-text{
+    color: #FFB703;
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 2rem;
+    font-weight: 700;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    margin: 0;
+    background: rgba(0,0,0,0.25);
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.locations-card2{
+    position: relative; 
+    width: 40%;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.locations-card2 img {
+    display: block;
+    width: 100%;            
+    height: auto;
+    border-radius: 12px;
+}
+
+.locations-text2{
+    color: #FFB703;
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 2rem;
+    font-weight: 700;
+    font-size: clamp(1.6rem, 4vw, 2.5rem);
+    margin: 0;
+    background: rgba(0,0,0,0.25);
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.restaurants{
+    font-size:2rem;
+    font-weight:700;
+    text-align:center;
+    margin:2rem 0 3rem;
+    color:#111111;
+}
+
+.locations-container {
+    display: flex;
+    flex-direction: column;      
+    align-items: center;        
+    gap: 2rem;
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+}
+
+.location-card {
+    position: relative;
+    width: 420px;             
+    max-width: 45%; 
+    flex: 1; 
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    transition:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 16px 32px rgba(0,0,0,0.15);
+    }
+}
+
+.location-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 16px;
+}
+
+.card-text {
+    position: absolute;
+    left: 0.5rem;
+    right: 0.5rem;
+    bottom: 2rem;
+    color: #FFB703;
+    font-weight: 700;
+    font-size: clamp(1.5rem, 5vw, 2.8rem);
+    text-align: center;
+    background: rgba(0,0,0,0.35);
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    backdrop-filter: blur(2px);
+}
+
+@media (max-width: 900px) {
+    .locations-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .location-card {
+        max-width: 500px;
+        width: 100%;
+    }
+}
+
+.buurg-logo-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+
+.buurg-logo-footer img {
+    width: 200px;
+    height: auto;
+}
