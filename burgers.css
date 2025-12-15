@@ -130,6 +130,8 @@ body {
 .burger-img {
     border-radius: 12px;
     height: 100%;
+    width: 12rem; /* ensure image occupies left column, not full card */
+    object-fit: cover; /* keep aspect while filling the thumbnail area */
 }
 
 /* Product name: positioned overlay text */
