@@ -80,7 +80,7 @@ Or use any static server (live-server, http-server, etc.).
 
 - Live site: https://anasaemd25.github.io/BUURG-My-Burger-Restaurant/
 - Repository: https://github.com/anasaemd25/BUURG-My-Burger-Restaurant
-- Figma design: [Add your Figma link here]
+- Figma design: https://www.figma.com/design/qW0ZFwcBHa1gi0AwXuiglM/Burger-App?t=TIklEAToeaQEhZlH-1
 
 ## Quick customization
 
